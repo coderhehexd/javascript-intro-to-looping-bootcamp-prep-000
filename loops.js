@@ -18,8 +18,10 @@ function incrementVariable() {
   i = i + 1;
 }
 
-function doWhile(arr){
+function doWhileLoop(arr){
   do{
-    arr.shift()
-  }while(arr.length > 0 || !incrementVariable())
+    arr.pop()
+  }while(arr.length > 0 && !incrementVariable())
+  
+  return arr
 }
