@@ -16,5 +16,7 @@ function whileLoop(n){
 }
 
 function doWhile(arr){
-  
+  do{
+    
+  }while(!incrementVariable())
 }
